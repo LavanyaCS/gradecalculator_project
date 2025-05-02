@@ -43,50 +43,7 @@
 
 .navbar-nav .nav-link {
   font-weight: normal;
-  opacity: 0.85;
 }
-
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  opacity: 1;
-}
-
-
-.contact .contact-form {
-  height: 100%;
-}
-
-.contact .contact-form input{
-  font-size: 0.875rem;
-  padding: 0.625rem 1rem;
-  box-shadow: none;
-  border-radius: 0;
-  color: #212529e8;
-  background-color: color-mix(in srgb, #ffffff, transparent 50%);
-  border-color: color-mix(in srgb, #212529e8, transparent 80%);
-}
-
-.contact .contact-form input:focus {
-  border-color: #212529e8;
-}
-
-.contact .contact-form input::placeholder {
-  color: color-mix(in srgb, #212529e8, transparent 70%);
-}
-
-.contact .contact-form button[type=submit] {
-  color: #ffffff;
-  background: #212529e8;
-  border: 0;
-  padding: 0.625rem 1.875rem;
-  transition: 0.4s;
-  border-radius: 3.1250rem;
-}
-
-.contact .contact-form button[type=submit]:hover {
-  background: color-mix(in srgb, #212529e8, transparent 25%);
-}
-
 /* Responsive:screens */
 
 @media (max-width: 450px) {
